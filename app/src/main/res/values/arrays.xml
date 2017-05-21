@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- ***************This is the music library :)***********************
+    If tracks are not written in this form, app will crash !!!
+    for ex: if you don't know what album it is then :
+    <item>Artist//Song/duration</item> and so on
+-->
+    <string-array name="library">
+        <item>Elim Harmony/A new day/O noua zi/4:24</item>
+        <item>Elim Harmony/A new day/El a-nviat/3:12</item>
+        <item>Elim Harmony/A new day/O, ce salvare/2:50</item>
+        <item>Elim Harmony/A new day/Vrednic este Mielul/3:45</item>
+        <item>Elim Harmony/Promisiuni/Domn peste veacuri/3:29</item>
+        <item>Elim Harmony/Promisiuni/Domn atotputernic/4:15</item>
+        <item>Elim Harmony/Promisiuni/Promisiuni/3:50</item>
+        <item>Elim Harmony/Promisiuni/Spre lumina Ta/3:32</item>
+
+        <item>Continental/Acasa/Track01/3:44</item>
+        <item>Continental/Acasa/Track02/3:54</item>
+        <item>Continental/Acasa/Track03/4:30</item>
+        <item>Continental/Acasa/Track04/2:57</item>
+
+        <item>Continental/The Best/Dor de cer/5:34</item>
+        <item>Continental/The Best/Sa fiti lumini/3:51</item>
+        <item>Continental/The Best/Iubirea Lui/5:00</item>
+        <item>Continental/The Best/N-ar fi un maine/4:33</item>
+
+        <item>Yare/Acapella/Track01/3:50</item>
+        <item>Yare/Acapella/Track02/3:41</item>
+        <item>Yare/Acapella/Track03/4:56</item>
+        <item>Yare/Acapella/Track04/6:25</item>
+
+    </string-array>
+
+
+
+</resources>

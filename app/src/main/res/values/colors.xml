@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0f84da</color>
+    <color name="colorPrimaryDark">#1c4f76</color>
+    <color name="colorSecondaryLight">#125f99</color>
+    <color name="colorSecondaryDark">#0b3b60</color>
+
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextSecondary">#2ab5fa</color>
+    <color name="colorTextTernary">#a7dbf5</color>
+
+    <color name="windowBackground">#000000</color>
+    <color name="barColor">#c8000000</color>
+    <color name="barColorLight">#62ffffff</color>
+
+
+    <color name="colorAccent">#34afec</color>
+</resources>

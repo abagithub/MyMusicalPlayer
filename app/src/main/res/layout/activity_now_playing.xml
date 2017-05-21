@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/cover_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_cover" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:background="@color/barColorLight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/barColor">
+
+        <CheckBox
+            android:id="@+id/surround"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/row_margin"
+            android:layout_marginStart="@dimen/row_margin"
+            android:button="@drawable/surround_selector" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/artist_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/artists"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/song_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/viewMargin"
+                android:layout_marginTop="@dimen/viewMargin"
+                android:gravity="center"
+                android:text="@string/songs"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/album_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/albums"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="@dimen/text_size_small" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/row_margin"
+            android:layout_marginRight="@dimen/row_margin"
+            android:button="@drawable/repeat_selector" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/windowBackground"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/windowBackground">
+
+            <CheckBox
+                android:id="@+id/fast_rewind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/row_margin"
+                android:layout_weight="1"
+                android:background="@color/windowBackground"
+                android:button="@null"
+                android:drawableEnd="@drawable/rewind_selector"
+                android:drawableRight="@drawable/rewind_selector" />
+
+            <CheckBox
+                android:id="@+id/play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/row_margin"
+                android:background="@color/windowBackground"
+                android:button="@drawable/play_selector" />
+
+            <CheckBox
+                android:id="@+id/fast_forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/row_margin"
+                android:background="@color/windowBackground"
+                android:button="@drawable/forward_selector" />
+
+            <CheckBox
+                android:id="@+id/stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/row_margin"
+                android:layout_weight="1"
+                android:background="@color/windowBackground"
+                android:button="@drawable/stop_selector" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/viewBottom"
+            android:layout_width="match_parent"
+            android:layout_height="1.6dp"
+            android:background="@color/colorTextTernary" />
+
+        <include
+            android:id="@+id/info_about_activity"
+            layout="@layout/info_about_activity" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+

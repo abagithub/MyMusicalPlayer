@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">MyMusicalPlayer</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="songs">Songs</string>
+    <string name="playLists">Playlists</string>
+    <string name="duration">4:03</string>
+    <string name="surround_on">Surround ON</string>
+    <string name="surround_off">Surround OFF</string>
+    <string name="repeat_on">Repeat ON</string>
+    <string name="repeat_off">Repeat OFF</string>
+
+    <string name="artists_activity_info">This activity displays alphabetically all the artists from media library.
+        Below every artist name you can see the sum of all albums and songs the artist has.
+        When click on the arrow down it pops down a menu with all the albums of the artist.
+        When click on the album it starts a new activity with all the songs from that album.
+        When click on a particular song a new activity starts showing a media player interface with all that songs details.
+    </string>
+
+    <string name="albums_activity_info">This activity displays alphabetically all the albums from media library.
+        Below album\'s name is attached artist name and in the left side the album cover miniaturized.
+        When click on the album it starts a new activity with all the songs from that album.
+        When click on a particular song a new activity starts showing a media player interface with all that songs details.
+    </string>
+
+    <string name="songs_activity_info">This activity displays alphabetically all the songs from media library.
+        Every row displays song name, duration, artist name and album name.
+        When click on a particular song a new activity starts showing a media player interface with all that songs details.
+    </string>
+
+    <string name="playlists_activity_info">This activity is for customized playlists.
+    </string>
+
+    <string name="album_songs_activity_info">This activity displays alphabetically all the songs of this album from media library.
+        Every row displays song name, duration, artist name and album name.
+        When click on a particular song a new activity starts showing a media player interface with all that songs details.
+    </string>
+
+    <string name="now_playing_activity_info">This activity is a media player interface for songs.
+        It has two bars : one at the top and one at the bottom.
+        The top bar displays details of the song: artist name, song name and album name.
+        In the top left corner there is a button for dolby surround and in the right corner a button for repeat.
+        The bottom bar contains buttons for rewind, play, fast froward and stop.
+    </string>
+
+    <string name="activity_sources"> The sources of this media library are from values resources (arrays.xml)
+        and icons and covers from drawable resources.
+    </string>
+
+</resources>

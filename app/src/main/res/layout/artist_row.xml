@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/windowBackground">
+
+    <CheckBox
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/row_margin"
+        android:background="@color/windowBackground"
+        android:button="@drawable/arrow_selector"
+        android:minWidth="45dp" />
+
+    <TextView
+        android:id="@+id/artist_name"
+        style="@style/headerPrimary"
+        android:layout_marginTop="@dimen/row_margin"
+        android:layout_toEndOf="@+id/arrow"
+        android:layout_toRightOf="@+id/arrow"
+        android:text="@string/artists" />
+
+    <TextView
+        android:id="@+id/total_albums"
+        style="@style/headerSecondary"
+        android:layout_below="@+id/artist_name"
+        android:layout_toEndOf="@+id/arrow"
+        android:layout_toRightOf="@+id/arrow"
+        android:text="@string/albums" />
+
+    <TextView
+        android:id="@+id/total_songs"
+        style="@style/headerSecondary"
+        android:layout_below="@+id/total_albums"
+        android:layout_toEndOf="@+id/arrow"
+        android:layout_toRightOf="@+id/arrow"
+        android:text="@string/songs" />
+
+    <View
+        style="@style/viewStyle"
+        android:layout_below="@+id/total_songs" />
+
+</RelativeLayout>

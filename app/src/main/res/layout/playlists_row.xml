@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/windowBackground">
+
+    <ImageView
+        android:id="@+id/playlists_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@color/windowBackground"
+        android:paddingEnd="@dimen/row_margin"
+        android:paddingRight="@dimen/row_margin"
+        android:src="@drawable/ic_playlist" />
+
+    <TextView
+        android:id="@+id/artist_name"
+        style="@style/headerPrimary"
+        android:layout_marginTop="@dimen/row_margin"
+        android:layout_toEndOf="@+id/playlists_icon"
+        android:layout_toRightOf="@+id/playlists_icon"
+        android:gravity="center"
+        android:minHeight="25dp"
+        android:text="@string/playLists" />
+
+    <View
+        style="@style/viewStyle"
+        android:layout_below="@+id/artist_name" />
+
+</RelativeLayout>

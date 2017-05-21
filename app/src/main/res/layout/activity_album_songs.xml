@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    style="@style/activityLayoutStyle"
+    tools:context="com.example.android.mymusicalplayer.MainActivity">
+
+    <TextView
+        android:id="@+id/album_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:textAllCaps="true"
+        android:textStyle="bold|italic" />
+
+    <include
+        android:id="@+id/info_about_activity"
+        layout="@layout/info_about_activity" />
+
+    <ScrollView style="@style/scrollStyle">
+
+        <LinearLayout
+            android:id="@+id/rowLayout"
+            style="@style/layoutStyle">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
